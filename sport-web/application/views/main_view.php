@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
     <div class="content row">
       
         <div class="main-content col-md-9 col-12">
@@ -9,15 +9,7 @@
                     <img src="/images/1.jpg"  alt="" class="img-thumbnail">
                 </div>
                 <div class="post_text col-12 col-md-8">
-                    <h3>
-                        <a href="/post">Статья 1</a>
-                    </h3>
-                    <i> <a href="#">Борьба</a></i>
-                    <i class="far fa-calendar"> Mart 11, 2022</i>
-                    <p class="preview-text">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Exercitationem optio possimus a inventore maxime laborum.
-                    </p>
+               
                 </div>
             </div>
             <div class="post row">
@@ -79,5 +71,15 @@
             </div>
 
         </div>
+        <table>
+	
+
+</table>
     </div>
-</div>
+</div> -->
+
+<?php
+
+$db=new Db();
+$data=$db->query('SELECT * FROM news');
+var_dump(($data));

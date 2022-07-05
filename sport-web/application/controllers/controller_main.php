@@ -7,4 +7,11 @@ class Controller_Main extends Controller
 	{	
 		$this->view->generate('main_view.php', 'template_view.php');
 	}
+	// все записи
+	// function test() {
+	// 	$model = new Model_News();
+	// 		$r = $model->getAllRows();
+	// 		var_dump($r);exit;
+	// }
+
 }
